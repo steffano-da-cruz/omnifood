@@ -1,0 +1,44 @@
+.container {
+  max-width: 115rem;
+  margin: 0 auto;
+}
+
+.spacing {
+  margin-bottom: 15rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.heading {
+  color: #cf711f;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.subheading {
+  font-size: 4.4rem;
+}
+
+.description {
+  font-size: 1.8rem;
+}
