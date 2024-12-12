@@ -1,0 +1,206 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .hero-container {
+    max-width: 120rem;
+  }
+
+  .info-customers {
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56%;
+  }
+
+  .info-title {
+    font-size: 4.4rem;
+  }
+
+  .heading {
+    font-size: 3.6rem;
+  }
+
+  .app-title {
+    font-size: 2.4rem;
+  }
+
+  .app-image {
+    height: 34rem;
+  }
+
+  .app-image-box::before {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .app-image-box::after {
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .testimonials-info {
+    padding: 10rem 3rem;
+  }
+
+  .testimonials-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .nav-open .header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  .header-nav-list {
+    flex-direction: column;
+    row-gap: 5rem;
+
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .menu-button {
+    display: block;
+    font-size: 5rem;
+    cursor: pointer;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+
+    max-width: 110rem;
+    text-align: center;
+  }
+
+  .hero-info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-buttons {
+    margin-bottom: 3rem;
+  }
+
+  .info-customers {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 7rem;
+  }
+
+  .hero-image {
+    height: auto;
+    max-width: 58%;
+  }
+
+  .company {
+    height: 2.4rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta-container {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-info-title {
+    font-size: 3.6rem;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-button {
+    margin-top: 1.8rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets and phones) */
+/**************************/
+
+@media (max-width: 44em) {
+
+  .featured-title {
+    margin-bottom: 5rem;
+  }
+
+  .featured-companies {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5rem;
+  }
+
+  .company {
+    height: 3rem;
+  }
+
+  .meals-cards-box {
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+
+  .diet-card {
+    margin-top: 7rem;
+    grid-column: span 2;
+    justify-self: center;
+  }
+
+  .pricing-cards-box {
+    grid-template-columns: 40rem;
+    row-gap: 4rem;
+  }
+
+  .pricing-benefits {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10rem;
+  }
+
+  .nav-column {
+    grid-row: 1;
+  }
+}

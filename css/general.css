@@ -1,44 +1,215 @@
-.container {
-  max-width: 115rem;
-  margin: 0 auto;
-}
-
-.spacing {
-  margin-bottom: 15rem;
-}
+/**************************/
+/* FLEX AND GRID */
+/**************************/
 
 .flex {
   display: flex;
+}
+
+.flex-column {
   flex-direction: column;
 }
 
 .grid {
   display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
 }
 
-.grid-2-col {
-  grid-template-columns: repeat(2, 1fr);
+.grid-2-cols {
+  grid-template-columns: 1fr 1fr;
 }
 
-.grid-3-col {
+.grid-3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.heading {
-  color: #cf711f;
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5-cols {
+  grid-template-columns: 1.6fr 1.6fr 1fr 1fr 1fr;
+}
+
+/**************************/
+/* LINE-HEIGHT */
+/**************************/
+
+.lh-bigger {
+  line-height: 1.6;
+}
+
+/**************************/
+/* FONT-SIZE */
+/**************************/
+
+.smaller-size {
+  font-size: 1.4rem;
+}
+
+.small-size {
   font-size: 1.6rem;
+}
+
+.normal-size {
+  font-size: 1.8rem;
+}
+
+.big-size {
+  font-size: 2rem;
+}
+
+/**************************/
+/* FONT-WEIGHT */
+/**************************/
+
+.light {
   font-weight: 500;
+}
+
+.heavy {
+  font-weight: 600;
+}
+
+.heavier {
+  font-weight: 700;
+}
+
+/**************************/
+/* TEXT-COLOR */
+/**************************/
+
+.dark {
+  color: #333;
+}
+
+.darker {
+  color: #222;
+}
+
+/**************************/
+/* BUTTONS */
+/**************************/
+
+.btn {
+  color: #fff !important;
+  background-color: #e67e22;
+}
+
+.btn:hover {
+  background-color: #cf711f;
+}
+
+/**************************/
+/* CENTERING */
+/**************************/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.center {
+  text-align: center;
+}
+
+/**************************/
+/* HEADING AND SUBHEADING */
+/**************************/
+
+.heading {
+  font-size: 4.4rem;
+}
+
+.subheading {
+  color: #cf711f;
   text-transform: uppercase;
+  font-size: 1.6rem;
   letter-spacing: 0.1rem;
   margin-bottom: 2rem;
 }
 
-.subheading {
-  font-size: 4.4rem;
+/**************************/
+/* GENERAL PADDING AND MARGIN */
+/**************************/
+
+.general-padding {
+  padding: 4.8rem 0 9.6rem 0;
 }
 
-.description {
-  font-size: 1.8rem;
+.general-padding-md {
+  padding: 4.8rem 0 12rem 0;
+}
+
+.smallest-margin {
+  margin-bottom: 2rem;
+}
+
+.smaller-margin {
+  margin-bottom: 3rem;
+}
+
+.small-margin {
+  margin-bottom: 5rem;
+}
+
+.medium-margin {
+  margin-bottom: 10rem;
+}
+
+/**************************/
+/* CARD LABEL */
+/**************************/
+
+.card-label {
+  padding: 0.3rem 0.8rem;
+  border-radius: 1.2rem;
+}
+
+.vegetarian--label {
+  background-color: #51cf66;
+}
+
+.vegan--label {
+  background-color: #94d82d;
+}
+
+.paleo--label {
+  background-color: #ffd43b;
+}
+
+/**************************/
+/* CARD ICONS */
+/**************************/
+
+.card-icon {
+  font-size: 2.4rem;
+}
+
+.check-icon {
+  font-size: 3rem;
+}
+
+/**************************/
+/* CHANGE BACKGROUND COLOR */
+/**************************/
+
+.change-bg {
+  background-color: #fdf2e9;
+}
+
+/**************************/
+/* CHANGE OPACITY */
+/**************************/
+
+.fade {
+  opacity: 0.9;
+}
+
+/**************************/
+/* TO UPPERCASE */
+/**************************/
+
+.to-uppercase {
+  text-transform: uppercase;
 }
